@@ -1,4 +1,4 @@
-def a():
-    return 1,2
+def a(x, u):
+    return x+u
 
-print(a(), type(a()))
+print(a(5,8))
